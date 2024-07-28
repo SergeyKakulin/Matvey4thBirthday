@@ -4,7 +4,7 @@
     /*border: 5px solid darkblue;*/
     align-items: center;
     text-align: center;
-    background-image: url(/MatveyBirthday/img/MatveyBirth.jpg);
+    background-image: url(../img/MatveyBirth.jpg);
     background-repeat: no-repeat;
     background-position: -40px 0px;
     background-size: cover;
@@ -18,8 +18,6 @@
     text-align: center;
     display: block;
 }
-
-
 
 /* General button style */
 .btn {
@@ -54,7 +52,6 @@
   /* Pseudo elements for icons */
   .btn:before {
     font-family: 'FontAwesome';
-    speak: none;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
