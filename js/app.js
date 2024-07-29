@@ -3,7 +3,7 @@ audio.volume = .25; // Чтобы не испугать пользователя
 
 document.querySelector('#play').addEventListener('click', function(e){
   if(e.target.value === 'Привет, Матвей!') {
-    e.target.value = 'Привет, Матвей!';
+    e.target.value = 'Привет, Матвей!▶';
     audio.src = e.target.getAttribute('data-url');
     audio.play();
   } else {
@@ -15,7 +15,7 @@ document.querySelector('#play').addEventListener('click', function(e){
 
 document.querySelector('#play2').addEventListener('click', function(e){
     if(e.target.value === '1') {
-      e.target.value = '1';
+      e.target.value = '▶';
       audio.src = e.target.getAttribute('data-url');
       audio.play();
     } else {
@@ -27,7 +27,7 @@ document.querySelector('#play2').addEventListener('click', function(e){
 
   document.querySelector('#play3').addEventListener('click', function(e){
     if(e.target.value === '2') {
-      e.target.value = '2';
+      e.target.value = '▶';
       audio.src = e.target.getAttribute('data-url');
       audio.play();
     } else {
@@ -39,7 +39,7 @@ document.querySelector('#play2').addEventListener('click', function(e){
 
   document.querySelector('#play4').addEventListener('click', function(e){
     if(e.target.value === '3') {
-      e.target.value = '3';
+      e.target.value = '▶';
       audio.src = e.target.getAttribute('data-url');
       audio.play();
     } else {
@@ -51,7 +51,7 @@ document.querySelector('#play2').addEventListener('click', function(e){
 
   document.querySelector('#play5').addEventListener('click', function(e){
     if(e.target.value === '4') {
-      e.target.value = '4';
+      e.target.value = '▶';
       audio.src = e.target.getAttribute('data-url');
       audio.play();
     } else {
@@ -63,7 +63,7 @@ document.querySelector('#play2').addEventListener('click', function(e){
 
   document.querySelector('#play6').addEventListener('click', function(e){
     if(e.target.value === '5') {
-      e.target.value = '5';
+      e.target.value = '▶';
       audio.src = e.target.getAttribute('data-url');
       audio.play();
     } else {
