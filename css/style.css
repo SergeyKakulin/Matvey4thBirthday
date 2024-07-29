@@ -27,6 +27,7 @@
 
 /* General button style */
 .btn {
+  right: 28%;
     border: 5px solid rgba(0, 0, 139, 0.376);
     font-family: 'Lato';
     font-size: inherit;
@@ -35,7 +36,7 @@
     cursor: pointer;
     padding: 0px 80px;
     display: inline-block;
-    margin: 15px 30px;
+    margin: 25px 40px;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
@@ -45,37 +46,6 @@
     -moz-transition: all 0.3s;
     transition: all 0.3s;
     /* zoom: 1.4; */
-  }
-  
-  .btn:after {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-  }
-  
-  /* Pseudo elements for icons */
-  .btn:before {
-    font-family: 'FontAwesome';
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    position: relative;
-    -webkit-font-smoothing: antialiased;
-  }
-  
-  
-  /* Icon separator */
-  .btn-sep {
-    padding: 25px 60px 25px 120px;
-  }
-  
-  .btn-sep:before {
-    background: rgba(0,0,0,0.15);
   }
   
   /* Button 1 */
