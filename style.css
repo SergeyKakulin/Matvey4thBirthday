@@ -1,27 +1,32 @@
-.body {
+* {
+  padding: 0;
+  margin: 0;
+}
+.wrapper {
     width: 750px;
     height: 1334px;
-    /*border: 5px solid darkblue;*/
+    /* border: 5px solid darkblue; */
     align-items: center;
     text-align: center;
     background-image: url(../img/MatveyBirth.jpg);
     background-repeat: no-repeat;
-    background-position: -40px 0px;
+    background-position: 0px 0px;
     background-size: cover;
 
 }
 
 .mainbtn {
-    width: 100px;
+  /* border: 5px solid darkblue; */
+    width:200px ;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    display: block;
+
 }
 
 /* General button style */
 .btn {
-    border: none;
+    border: 5px solid rgba(0, 0, 139, 0.376);
     font-family: 'Lato';
     font-size: inherit;
     color: inherit;
@@ -74,7 +79,7 @@
   /* Button 1 */
   .btn-1 {
     height: 100px;
-    right: 70%;
+    right: 45%;
     background: #3498db;
     color: #fff;
   }
