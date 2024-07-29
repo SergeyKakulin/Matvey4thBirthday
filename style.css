@@ -43,6 +43,7 @@
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
+    zoom: 1.4;
   }
   
   .btn:after {
